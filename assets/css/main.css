@@ -2597,6 +2597,58 @@
 				width: 100%;
 			}
 
+	.image-profile {
+		border-radius: 20em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image-profile img {
+			border-radius: 0.375em;
+			display: block;
+		}
+
+		.image-profile.left, .image-profile.right {
+			max-width: 40%;
+		}
+
+			.image-profile.left img, .image-profile.right img {
+				width: 100%;
+			}
+
+		.image-profile.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image-profile.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image-profile.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image-profile.fit img {
+				width: 100%;
+			}
+
+		.image-profile.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.image-profile.main img {
+				width: 100%;
+			}
+
 	a.image {
 		overflow: hidden;
 	}
@@ -2723,6 +2775,54 @@
 				ul.contact li a {
 					color: inherit;
 				}
+
+		ul.contact-compact {
+			list-style: none;
+			padding: 0;
+		}
+
+			ul.contact-compact li {
+				text-decoration: none;
+				margin: 0 0 0 0;
+				padding: 1.5em 0 0 3em;
+				position: relative;
+			}
+
+				ul.contact-compact li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.contact-compact li:before {
+					color: #1e407c;
+					display: inline-block;
+					font-size: 1.5em;
+					height: 1.125em;
+					left: 0;
+					line-height: 1.5em;
+					position: absolute;
+					text-align: center;
+					top: 1em;
+					width: 1.5em;
+				}
+
+				ul.contact-compact li:first-child {
+					border-top: 0;
+					margin-top: 0;
+					padding-top: 0;
+				}
+
+					ul.contact-compact li:first-child:before {
+						top: 0;
+					}
+
+				ul.contact-compact li a {
+					color: inherit;
+				}				
 
 		ul.actions {
 			cursor: default;
