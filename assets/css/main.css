@@ -3384,8 +3384,8 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 0 2em -6em;
-		width: calc(100% + 6em);
+		margin: 0 0 2em -4em;
+		width: calc(100% + 4em);
 	}
 
 		.posts article {
@@ -3397,17 +3397,17 @@
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			margin: 0 0 6em 6em;
+			margin: 0 0 4em 4em;
 			position: relative;
-			width: calc(33.33333% - 6em);
+			width: calc(25% - 4em);
 		}
 
 			.posts article:before {
 				background: rgba(210, 215, 217, 0.75);
 				content: '';
 				display: block;
-				height: calc(100% + 6em);
-				left: -3em;
+				height: calc(100% + 4em);
+				left: -2em;
 				position: absolute;
 				top: 0;
 				width: 1px;
@@ -3415,13 +3415,13 @@
 
 			.posts article:after {
 				background: rgba(210, 215, 217, 0.75);
-				bottom: -3em;
+				bottom: -2em;
 				content: '';
 				display: block;
 				height: 1px;
 				position: absolute;
-				right: 0;
-				width: calc(100% + 6em);
+				right: 0em;
+				width: calc(100% + 4em);
 			}
 
 			.posts article > :last-child {
@@ -3440,11 +3440,11 @@
 
 		@media screen and (min-width: 1681px) {
 
-			.posts article:nth-child(3n + 1):before {
+			.posts article:nth-child(4n + 1):before {
 				display: none;
 			}
 
-			.posts article:nth-child(3n + 1):after {
+			.posts article:nth-child(4n + 1):after {
 				width: 100%;
 			}
 
