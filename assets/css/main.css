@@ -2597,6 +2597,29 @@
 				width: 100%;
 			}
 
+		.image.fixed {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.image.fixed img {
+				margin: auto;
+			}
+		
+		@media screen and (max-width: 736px) {
+			
+			.image.fixed {
+				display: block;
+				margin: 0 0 3em 0;
+				width: 100%;
+			}
+
+				.image.fixed img {
+					width: 100%;
+				}
+		}
+
 	.image-profile {
 		border-radius: 20em;
 		border: 0;
