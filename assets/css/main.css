@@ -2999,6 +2999,13 @@
 		overflow-x: auto;
 	}
 
+	.table-wrapper-hfixed {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+		overflow-y: scroll;
+		max-height: 20em;
+	}
+
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
