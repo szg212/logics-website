@@ -2132,6 +2132,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2996,6 +2997,13 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+	}
+
+	.table-wrapper-hfixed {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+		overflow-y: scroll;
+		max-height: 20em;
 	}
 
 	table {
