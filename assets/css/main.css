@@ -4258,3 +4258,10 @@ header.majorconst {
 	display: inline-block;
 	margin-top: 2em;
 }
+
+.newsfeed {
+	-webkit-overflow-scrolling: touch;
+	overflow-x: auto;
+	overflow-y: scroll;
+	max-height: 60em;
+}
